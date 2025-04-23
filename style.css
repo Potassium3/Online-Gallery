@@ -1,6 +1,6 @@
 :root {
     --layout-header-height: 100px;
-    --layout-sidebar-width: 200px;
+    --layout-sidebar-width: 30vw;
     --layout-nav-height: 30px;
     --grey: #e8e8e8;
     --white: #ffffff;
@@ -124,6 +124,8 @@ body {
 
 .main-grid-item>img {
     object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .main-grid-item:hover>* {
